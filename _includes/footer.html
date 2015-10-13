@@ -29,8 +29,16 @@
   var col = "#FFF";
   //col = "#F33446";
 
-  $("#generalModal").animatedModal({
-      modalTarget: 'general',
+  $("#appointmentManagerModal").animatedModal({
+      modalTarget: 'appointmentManager',
+      color: col,
+      animatedIn: "fadeIn",
+      animatedOut: "fadeOut",
+      animationDuration: "0.4s"
+  });
+
+  $("#appointmentManagerModal").animatedModal({
+      modalTarget: 'appointmentManager',
       color: col,
       animatedIn: "fadeIn",
       animatedOut: "fadeOut",
