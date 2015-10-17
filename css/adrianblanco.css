@@ -305,7 +305,7 @@ nav ul li a {
 
 .social a:hover, .social a:hover div{
   text-decoration: none;
-  background-color: #F33446;
+  background-color: #334055;
   color: #FFF;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
@@ -322,7 +322,7 @@ nav ul li a {
 }
 
 .portfolio-background {
-  background-color: #334055;
+  background-color: #F33446;
   color: white;
 }
 
