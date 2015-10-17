@@ -12,12 +12,12 @@ body {
 
 /* All highlights become red */
 ::selection {
-  background: #57C2B2;
+  background: #1A8D8D;
   color: #FFF;
 }
 
 ::-moz-selection {
-  background: #57C2B2;
+  background: #1A8D8D;
   color: #FFF
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .down-arrow:hover svg path {
-  fill: #57C2B2;
+  fill: #1A8D8D;
   -webkit-transition: fill 800ms;
   transition: fill 800ms;
 }
@@ -185,7 +185,7 @@ body {
 }
 
 #categories ul li a.active {
-  color: #57C2B2;
+  color: #1A8D8D;
 }
 
 .heading {
@@ -217,7 +217,7 @@ a.white {
 }
 
 i.fa, a, a:hover {
-  color: #57C2B2;
+  color: #1A8D8D;
 }
 
 .btn {
@@ -228,7 +228,7 @@ i.fa, a, a:hover {
   font-weight: 400;
   line-height: 1.33;
   border-radius: 6px;
-  border: solid 2px #57C2B2;
+  border: solid 2px #1A8D8D;
   background: transparent;
   text-align: center;
   transition: all .3s ease-in-out;
@@ -236,7 +236,7 @@ i.fa, a, a:hover {
 }
 
 .btn:hover {
-  background: #57C2B2;
+  background: #1A8D8D;
   color: #FFF;
   text-decoration: none;
 }
@@ -305,7 +305,7 @@ nav ul li a {
 
 .social a:hover, .social a:hover div{
   text-decoration: none;
-  background-color: #57C2B2;
+  background-color: #1A8D8D;
   color: #FFF;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
@@ -322,7 +322,7 @@ nav ul li a {
 }
 
 .portfolio-background {
-  background-color: #D55252;
+  background-color: #993333;
    color: white;
 }
 
@@ -428,7 +428,7 @@ nav ul li a {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #57C2B2;
+  background: #1A8D8D;
   z-index: 2;
 
   opacity:  0;
