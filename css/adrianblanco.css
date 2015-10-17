@@ -12,12 +12,12 @@ body {
 
 /* All highlights become red */
 ::selection {
-  background: #334055;
+  background: #232C8A;
   color: #FFF;
 }
 
 ::-moz-selection {
-  background: #334055;
+  background: #232C8A;
   color: #FFF
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .down-arrow:hover svg path {
-  fill: #334055;
+  fill: #232C8A;
   -webkit-transition: fill 800ms;
   transition: fill 800ms;
 }
@@ -185,7 +185,7 @@ body {
 }
 
 #categories ul li a.active {
-  color: #334055;
+  color: #232C8A;
 }
 
 .heading {
@@ -217,7 +217,7 @@ a.white {
 }
 
 i.fa, a, a:hover {
-  color: #334055;
+  color: #232C8A;
 }
 
 .btn {
@@ -228,7 +228,7 @@ i.fa, a, a:hover {
   font-weight: 400;
   line-height: 1.33;
   border-radius: 6px;
-  border: solid 2px #334055;
+  border: solid 2px #232C8A;
   background: transparent;
   text-align: center;
   transition: all .3s ease-in-out;
@@ -236,7 +236,7 @@ i.fa, a, a:hover {
 }
 
 .btn:hover {
-  background: #334055;
+  background: #232C8A;
   color: #FFF;
   text-decoration: none;
 }
@@ -305,7 +305,7 @@ nav ul li a {
 
 .social a:hover, .social a:hover div{
   text-decoration: none;
-  background-color: #334055;
+  background-color: #232C8A;
   color: #FFF;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
@@ -428,7 +428,7 @@ nav ul li a {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #334055;
+  background: #232C8A;
   z-index: 2;
 
   opacity:  0;
