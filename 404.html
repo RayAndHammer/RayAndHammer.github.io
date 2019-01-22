@@ -1,25 +1,66 @@
----
-layout: default
-title: 404 | rahimbaraky.co.uk
-nav: 404
----
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+  </head>
+  <style>
+{
+    transition: all 0.6s;
+}
 
-<!--<div class="wrapper">-->
-  <!--<header>-->
-    <!--<h1>Sorry but </h1>-->
-  <!--</header>-->
-  <!--<section>-->
-      <!--Theses are not the droids you're looking for...-->
-  <!--</section>-->
-<!--</div>-->
+html {
+    height: 100%;
+}
 
-<div id="home" class="header">
-    <div id="video-container">
-        <video autoplay loop class="coverr" poster="/images/typing.jpg">
-            <img src="/images/fallback3.jpg" title="Your browser does not support the <video> tag">
-        </video>
-    </div>
-    <div class="profile">
-        <h1>Theses are not the droids you're looking for...(404)</h1>
-    </div>
-</div>
+body{
+    font-family: 'Lato', sans-serif;
+    color: #888;
+    margin: 0;
+}
+
+#main{
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.fof{
+	  display: table-cell;
+	  vertical-align: middle;
+}
+
+.fof h1{
+	  font-size: 50px;
+	  display: inline-block;
+	  padding-right: 12px;
+	  animation: type .5s alternate infinite;
+}
+
+@keyframes type{
+	  from{box-shadow: inset -3px 0px 0px #888;}
+	  to{box-shadow: inset -3px 0px 0px transparent;}
+}
+  .button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  </style>
+  <body>
+	<div id="main">
+    	<div class="fof">
+        		<h1>Error 404</h1></br>
+				
+				<a href="https://www.rahimbaraky.co.uk" class="button">Home</a>
+    	</div>
+	</div>
+  </body>
+</html>
