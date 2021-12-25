@@ -30,7 +30,6 @@
             width: 100%;
             height: 100%;
             background-color: rgba(254, 247, 244, 1);
-            overflow: hidden;
             --web-view-name: certs;
             --web-view-id: certs;
             --web-scale-on-resize: true;
@@ -38,48 +37,32 @@
         }
         
         #AWS_Icons {
-            position: absolute;
-            width: 1087px;
-            height: 272px;
-            left: 21.5%;
-            top: 48%;
-            overflow: visible;
+            display: flex;
+            justify-content: center;
+            margin-top: 3%;
+            margin-left: 15%;
+            margin-right: 15%;
+            flex-wrap: wrap;
         }
         
         #AWS-CloudPractitioner-2020 {
-            position: absolute;
-            width: 272px;
-            height: 272px;
-            left: 0%;
-            top: 0%;
-            overflow: visible;
+            flex: 1;
+            text-align: center;
         }
         
         #AWS-SolArchitect-Associate-202 {
-            position: absolute;
-            width: 272px;
-            height: 272px;
-            left: 25%;
-            top: 0%;
-            overflow: visible;
+            flex: 1;
+            text-align: center;
         }
         
         #AWS-SysOpAdmin-Associate-2020 {
-            position: absolute;
-            width: 271px;
-            height: 272px;
-            left: 50%;
-            top: 0px;
-            overflow: visible;
+            flex: 1;
+            text-align: center;
         }
         
         #AWS-Developer-Associate-2020 {
-            position: absolute;
-            width: 272px;
-            height: 272px;
-            left: 75%;
-            top: 0%;
-            overflow: visible;
+            flex: 1;
+            text-align: center;
         }
         
         #iconmonstr-undo-6_n {
@@ -91,25 +74,18 @@
         }
         
         .iconmonstr-undo-6_n {
-            overflow: visible;
-            position: relative;
             width: 46.716px;
             height: 46.716px;
-            left: 90%;
-            top: 5%;
-            transform: matrix(1, 0, 0, 1, 0, 0);
-            --web-animation: fadein 0.3s ease-out;
-            --web-action-type: page;
-            --web-action-target: index.html;
-            cursor: pointer;
+            display: flex;
+            margin-left: 90%;
+            height: 10%;
         }
         
         #Cloud_Certs {
-            left: 35.5%;
-            top: 16.5%;
-            position: absolute;
-            overflow: visible;
-            width: 560px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 20%;
             white-space: nowrap;
             text-align: left;
             font-family: Atkinson Hyperlegible;
@@ -137,7 +113,6 @@
         
         #home2 {
             color: red;
-            text-decoration: none;
         }
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -149,6 +124,16 @@
 
 <body>
     <div id="certs">
+        <svg class="iconmonstr-undo-6_n" viewBox="0 0 46.716 46.716">
+            <a xlink:href="index.html">
+                <path onclick="application.goToTargetView(event)" id="iconmonstr-undo-6_n"
+                    d="M 23.35788345336914 3.892980575561523 C 34.0908317565918 3.892980575561523 42.82278442382812 12.6249361038208 42.82278442382812 23.35788345336914 C 42.82278442382812 34.0908317565918 34.0908317565918 42.82278442382812 23.35788345336914 42.82278442382812 C 12.6249361038208 42.82278442382812 3.892980575561523 34.0908317565918 3.892980575561523 23.35788345336914 C 3.892980575561523 12.6249361038208 12.6249361038208 3.892980575561523 23.35788345336914 3.892980575561523 Z M 23.35788345336914 0 C 10.45849227905273 0 0 10.45849227905273 0 23.35788345336914 C 0 36.25727081298828 10.45849227905273 46.71576690673828 23.35788345336914 46.71576690673828 C 36.25727081298828 46.71576690673828 46.71576690673828 36.25727081298828 46.71576690673828 23.35788345336914 C 46.71576690673828 10.45849418640137 36.25727081298828 0 23.35788345336914 0 Z M 29.62947463989258 36.82175827026367 C 40.65829086303711 25.32773017883301 28.4051342010498 15.74515914916992 19.87561225891113 21.82210350036621 L 23.35788345336914 25.30437469482422 L 11.67894172668457 25.30437469482422 L 11.67894172668457 13.62543201446533 L 15.24491119384766 17.19140243530273 C 30.51707458496094 5.376205444335938 46.80141067504883 25.90973281860352 29.62947463989258 36.82175827026367 Z">
+                </path>
+            </a>
+        </svg>
+        <div id="Cloud_Certs">
+            <span>Cloud Cert<a href="index.html" id="home2">s</a></span>
+        </div>
         <div id="AWS_Icons">
             <img id="AWS-CloudPractitioner-2020" src="AWS-CloudPractitioner-2020.png" srcset="AWS-CloudPractitioner-2020.png 1x, AWS-CloudPractitioner-2020@2x.png 2x">
 
@@ -159,16 +144,7 @@
             <img id="AWS-Developer-Associate-2020" src="AWS-Developer-Associate-2020.png" srcset="AWS-Developer-Associate-2020.png 1x, AWS-Developer-Associate-2020@2x.png 2x">
 
         </div>
-        <svg class="iconmonstr-undo-6_n" viewBox="0 0 46.716 46.716">
-				<a xlink:href="index.html">
-					<path onclick="application.goToTargetView(event)" id="iconmonstr-undo-6_n"
-						d="M 23.35788345336914 3.892980575561523 C 34.0908317565918 3.892980575561523 42.82278442382812 12.6249361038208 42.82278442382812 23.35788345336914 C 42.82278442382812 34.0908317565918 34.0908317565918 42.82278442382812 23.35788345336914 42.82278442382812 C 12.6249361038208 42.82278442382812 3.892980575561523 34.0908317565918 3.892980575561523 23.35788345336914 C 3.892980575561523 12.6249361038208 12.6249361038208 3.892980575561523 23.35788345336914 3.892980575561523 Z M 23.35788345336914 0 C 10.45849227905273 0 0 10.45849227905273 0 23.35788345336914 C 0 36.25727081298828 10.45849227905273 46.71576690673828 23.35788345336914 46.71576690673828 C 36.25727081298828 46.71576690673828 46.71576690673828 36.25727081298828 46.71576690673828 23.35788345336914 C 46.71576690673828 10.45849418640137 36.25727081298828 0 23.35788345336914 0 Z M 29.62947463989258 36.82175827026367 C 40.65829086303711 25.32773017883301 28.4051342010498 15.74515914916992 19.87561225891113 21.82210350036621 L 23.35788345336914 25.30437469482422 L 11.67894172668457 25.30437469482422 L 11.67894172668457 13.62543201446533 L 15.24491119384766 17.19140243530273 C 30.51707458496094 5.376205444335938 46.80141067504883 25.90973281860352 29.62947463989258 36.82175827026367 Z">
-					</path>
-				</a>
-			</svg>
-        <div id="Cloud_Certs">
-            <span>Cloud Cert<a href="index.html" id="home2">s</a></span>
-        </div>
+
     </div>
 </body>
 
